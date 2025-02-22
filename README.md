@@ -1,20 +1,32 @@
-# PDFGlance
+# 📄 PDF Summarizer
 
-A simple PDF summarization tool that extracts and summarizes content using Google's Gemini AI. Designed to help with academic exam preparation by providing concise and clear summaries of uploaded PDFs.
+![Python](https://img.shields.io/badge/Python-3.x-blue) ![Flask](https://img.shields.io/badge/Flask-Backend-red) ![React](https://img.shields.io/badge/React-Frontend-blue) ![GeminiAI](https://img.shields.io/badge/GeminiAI-Powered-green)
 
-## Features
-- Upload and summarize PDFs
-- Uses Google's Gemini AI for intelligent summarization
-- Provides a detailed and structured summary
-- Share summaries via WhatsApp
+A simple **PDF summarization tool** that extracts and summarizes content using **Google's Gemini AI**. Designed to assist with **academic exam preparation** by providing concise and clear summaries of uploaded PDFs.
 
-## Tech Stack
+## 🚀 Features
+- 📂 Upload and summarize PDFs
+- 🤖 Uses **Google's Gemini AI** for intelligent summarization
+- 📝 Provides **detailed and structured summaries**
+- 📲 **Share summaries via WhatsApp**
+
+## 📑 Table of Contents
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [API Endpoint](#-api-endpoint)
+- [Demo](#-demo)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
+
+## 🛠 Tech Stack
 - **Frontend:** React
 - **Backend:** Flask (Python)
 - **AI Model:** Gemini AI via LangChain
 - **PDF Processing:** PyPDFLoader
 
-## Installation
+## ⚙️ Installation
 ### Prerequisites
 - Node.js & npm
 - Python 3
@@ -54,21 +66,33 @@ A simple PDF summarization tool that extracts and summarizes content using Googl
    npm start
    ```
 
-## Usage
-1. Upload a PDF file.
-2. Click "Summarize PDF."
-3. View the generated summary.
-4. Share the summary via WhatsApp.
+## 🎯 Usage
+1. 📂 Upload a **PDF file**.
+2. 🔍 Click **"Summarize PDF."**
+3. 📝 View the **generated summary.**
+4. 📲 **Share the summary via WhatsApp.**
 
-## API Endpoint
-- `POST /summarize`: Accepts a PDF file and returns a summary.
+## 🌐 API Endpoint
+### PDF Summarization
+```bash
+POST /summarize
+```
+#### Example Usage
+```bash
+curl -X POST -F "file=@document.pdf" http://127.0.0.1:5000/summarize
+```
 
-## Contributing
-Feel free to open an issue or submit a pull request if you’d like to improve this project!
+## 📸 Demo
+![PDF Summarizer UI](path_to_screenshot.png)
 
-## License
-This project is open-source under the MIT License.
+## 🤝 Contributing
+Feel free to **open an issue** or **submit a pull request** if you’d like to improve this project!
 
-## Author
-Created by [Your Name] for academic exam preparation.
+## 📜 License
+This project is open-source under the **MIT License**.
 
+## 👤 Author
+Created by Hari nath for **academic exam preparation**.
+
+---
+🔥 If you like this project, give it a ⭐ on GitHub! 🚀
